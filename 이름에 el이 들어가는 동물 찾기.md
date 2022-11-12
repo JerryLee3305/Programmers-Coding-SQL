@@ -5,13 +5,7 @@
 
 ANIMAL_INS 테이블은 동물 보호소에 들어온 동물의 정보를 담은 테이블입니다. ANIMAL_INS 테이블 구조는 다음과 같으며, ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각 동물의 아이디, 생물 종, 보호 시작일, 보호 시작 시 상태, 이름, 성별 및 중성화 여부를 나타냅니다.
 
-NAME	TYPE	NULLABLE
-ANIMAL_ID	VARCHAR(N)	FALSE
-ANIMAL_TYPE	VARCHAR(N)	FALSE
-DATETIME	DATETIME	FALSE
-INTAKE_CONDITION	VARCHAR(N)	FALSE
-NAME	VARCHAR(N)	TRUE
-SEX_UPON_INTAKE	VARCHAR(N)	FALSE
+![image](https://user-images.githubusercontent.com/108413432/201459133-7157ca1b-10a5-407f-8a2a-bc05ca1d5dd6.png)
 
 보호소에 돌아가신 할머니가 기르던 개를 찾는 사람이 찾아왔습니다. 이 사람이 말하길 할머니가 기르던 개는 이름에 'el'이 들어간다고 합니다. 동물 보호소에 들어온 동물 이름 중, 이름에 "EL"이 들어가는 개의 아이디와 이름을 조회하는 SQL문을 작성해주세요. 이때 결과는 이름 순으로 조회해주세요. 단, 이름의 대소문자는 구분하지 않습니다.
 
@@ -19,12 +13,7 @@ SEX_UPON_INTAKE	VARCHAR(N)	FALSE
 
 예를 들어 ANIMAL_INS 테이블이 다음과 같다면
 
-ANIMAL_ID	ANIMAL_TYPE	DATETIME	INTAKE_CONDITION	NAME	SEX_UPON_INTAKE
-A355753	Dog	2015-09-10 13:14:00	Normal	Elijah	Neutered Male
-A352872	Dog	2015-07-09 17:51:00	Aged	Peanutbutter	Neutered Male
-A353259	Dog	2016-05-08 12:57:00	Injured	Bj	Neutered Male
-A373219	Cat	2014-07-29 11:43:00	Normal	Ella	Spayed Female
-A382192	Dog	2015-03-13 13:14:00	Normal	Maxwell 2	Intact Male
+![image](https://user-images.githubusercontent.com/108413432/201459138-bbf2dd3f-e23b-493b-b8dd-1a10b4c5088d.png)
 
 이름에 'el'이 들어가는 동물은 Elijah, Ella, Maxwell 2입니다.
 
