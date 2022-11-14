@@ -54,5 +54,3 @@ order by animal_id
 4. 년월일을 표현하는 %Y-%m-%d 를 사용
 5. animal_ins 테이블에서 가져온다.
 6. ID 순으로 정렬을 한다.
-
-- date 형식
